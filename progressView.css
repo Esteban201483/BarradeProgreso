@@ -1,0 +1,75 @@
+:root
+{
+	--main-color: cyan;
+	--main-dark-color: darkcyan;
+	--main-light-color: lightcyan;
+
+	--main-title-size: 2em;
+
+	--default-progressBar-height: 3.5%;
+}
+
+.validationLabel
+{
+	margin-top: 0;
+	color: red;
+}
+
+.textInput
+{
+	display:inline-block;
+	margin-top: 20px;
+}
+
+.inputLabel
+{
+	display:inline-block;	
+	margin-top: 0;
+	margin-left: 15px;
+
+}
+
+/****************************Progress Bar Design*****************************************/
+
+.progress
+{
+	border: 2px transparent;
+	border-radius: 10px;
+	width: 0%;
+	background-color: green;
+	padding-bottom: var(--default-progressBar-height);
+
+}
+
+.progressBar
+{
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 50%;
+	/*padding-bottom: var(--default-progressBar-height);*/
+}
+/***************************************************************************************/
+
+h1
+{
+	font-size: var(--main-title-size);
+}
+
+hr
+{
+	width: 70%;
+	margin-left: 0px;
+	color: var(--main-light-color);
+	margin-bottom: 25px;
+}
+
+.header
+{
+	padding-bottom: 5%;
+	background-color: var(--main-dark-color);
+}
+
+.mainSection
+{
+	margin-left: 5%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8"/>
+	<title>Progress test</title>
+
+	<script defer="defer" src="progressView.js"></script>
+	<link rel="stylesheet" href="progressView.css"/>
+
+	<!--Adds a header using the main color as background-->
+	<header class="header"></header>
+
+	<body>
+		<section class="mainSection">
+			<section>
+				<h1>Work Progress Calculation</h1>
+				<hr/>
+
+				<section>
+					<h2>Instructions</h2>
+					<p>Input a Quantity value and a Goal Value and press the "update" button in order to calculate and display the completion progress.</p>
+					<p>You can only use positive values, and the goal value must be greater or equal than quantity value</p>
+					<hr/>
+				</section>
+
+				<section>
+					<h2>Progression</h2>
+					<div id="mainProgressBar" class="progressBar">
+						<div class="progress"></div>
+					</div>
+					<p id="progressLabel"> </p>
+					<input id="progressBarHideInput" type="checkbox"> Hide progress bar</input> 
+				</section>
+
+				<section>
+					<h2>Values input</h2>
+					 <input id="quantityInput" class="textInput" type="text" placeholder="Quantity"> <p class="inputLabel"> Quantity</p> <br/>
+					 <input id="goalInput" class="textInput" type="text" placeholder="Goal"> <p class="inputLabel"> Goal</p>
+					 <p id="progressValidationLabel" class="validationLabel"></p>
+
+					 <button id="progressInputButton">Update</button>
+				</section>
+
+
+
+			</section>
+			<section>
+
+			</section>
+		</section>
+	</body>
+</html>
